@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview
-Created a supervised machine learning model in order to ccurately predict credit risk. Using a credit card credit dataset from LendingClub, a peer-to-peer lending services company, the data was oversampled using the RandomOverSampler and SMOTE algorithms, and undersampled using the ClusterCentroids algorithm. Then, used a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, compared two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Finally, evaluated the performance of these models and made a written recommendation on whether they should be used to predict credit risk.
+Created a supervised machine learning model in order to accurately predict credit risk. Using a credit card dataset from LendingClub, a peer-to-peer lending services company, the data was oversampled using the RandomOverSampler and SMOTE algorithms, and undersampled using the ClusterCentroids algorithm. Then, a combinatorial approach of over- and undersampling employing the SMOTEENN algorithm was used. Next, two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, were used to predict credit risk. Finally, the performance of these models were evaluated and a written recommendation was made on whether they should be used to predict credit risk.
 
 ## Results
 ### Naive Random Oversampling
@@ -55,5 +55,4 @@ Created a supervised machine learning model in order to ccurately predict credit
 ![image](https://user-images.githubusercontent.com/5934390/124792229-d1fb8e80-df1a-11eb-8214-e2308989c193.png)
 
 ### Summary
-
-In summary, the statistic to look at would be the accuracy score, as it can provide a general indication of how well each model performs. All models appear to have a relatively low accuracy score, except for the Easy Ensemble Classifier, which has a score of 92.3%. Based on this summary, I would recommend using the Easy Ensemble Classifier model.
+The accuracy score could be looked as a summarizing statistic, as it can provide a general indication of how well each model performed. All models appear to have a relatively low accuracy score, except for the Easy Ensemble Classifier, which has a score of 92.3%. Based on this summary, I would recommend using the Easy Ensemble Classifier model.
