@@ -18,7 +18,7 @@ Created a supervised machine learning model in order to accurately predict credi
 * Precision High Risk: 1%
 * Precision Low Risk: 100%
 * Recall High Risk: 69%
-* Recall Low Risk: 65%
+* Recall Low Risk: 65% 
 ![image](https://user-images.githubusercontent.com/5934390/124789788-9233a780-df18-11eb-8ec7-4b54df431fa7.png)
 
 ### Cluster Centroid Undersampling
