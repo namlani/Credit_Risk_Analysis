@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview
-Created a supervised machine learning model in order to accurately predict credit risk. Using a credit card dataset from LendingClub, a peer-to-peer lending services company, the data was oversampled using the RandomOverSampler and SMOTE algorithms, and undersampled using the ClusterCentroids algorithm. Then, a combinatorial approach of over- and undersampling employing the SMOTEENN algorithm was used. Next, two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, were used to predict credit risk. Finally, the performance of these models were evaluated and a written recommendation was made on whether they should be used to predict credit risk.
+Used supervised machine learning models in order to accurately predict credit risk. Using a credit card dataset from LendingClub, a peer-to-peer lending services company, the data was oversampled using the RandomOverSampler and SMOTE algorithms, and undersampled using the ClusterCentroids algorithm. Then, a combinatorial approach of over- and undersampling employing the SMOTEENN algorithm was used. Next, two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, were used to predict credit risk. Finally, the performance of these models were evaluated and a written recommendation was made on whether they should be used to predict credit risk.
 
 ## Results
 ### Naive Random Oversampling
